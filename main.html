@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Get to know data professional Yiqi!</title>
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Raleway:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="Resources/style.css">
+  </head>
+<body>
+  <div class="navigation">
+    <ul>
+      <a href="#aboutme" class="nav-link">About Me</a>
+      <a href="#projects" class="nav-link">Projects</a>
+      <a class="nav-link logo">MyPortfolio</a>
+      <a href="#skills" class="nav-link">Skills/Certifications</a>
+      <a href="#contacts" class="nav-link">Contact</a>
+    </ul>
+  </div>
+
+  <div class="banner">
+    <div class="banner-text">
+      <h2>Professional Showcase</h2>
+      <a href="#aboutme" class="btn">Know more about Yiqi Li</a>
+    </div>
+  </div>
+
+  <div id="aboutme" class="content">
+    <h2>About Me</h2>
+    <div class="description">
+      <p>Hello, my name is Yiqi Li.</p>
+      <p>🕵️‍♀️ Motivated, detail-oriented and results-driven data professional with a strong foundation in data analytics, data governance, and business intelligence. Holds a Master of Science in Business Analytics degree from NTU and joint Bechelor's degree for Information Management and Information Systems from Beijing Jiaotong University and Rochester Institute of Technology, with proficiency in diverse technologies and a demonstrated ability to adapt quickly to new tools and methodologies.</p>
+      <p>🌱 Currently excelling as Data Foundation Engineer at Johnson & Johnson, with proven expertise in data catalog management, data quality, master data management and process automation. Skilled in driving high-quality deliverables, efficient issue escalation, and risk management, enabling data-driven decision-making and business optimization with great ownership and dedication.</p>
+      <p>🤝 A highly effective communicator and collaborator, passionate about leveraging data-driven insights to address real-world challenges, enhance operational efficiency, and drive innovation in business processes.</p>
+      <p>🧩 My skillset falls into diverse categories including Analytics, Data Governance, Big data and cloud, Productivity software, soft competency and language competency, please proceed to <a href="#skills">SKILLS</a> section if you would like to know more.</p>
+      <p>For download, please refer to my <a href="https://www.dropbox.com/scl/fi/pm2h2gcu6z52lv0q3401f/Resume_Li-Yiqi_20241222.pdf?rlkey=quzu4hyicjfzz8td0f9ynh7he&st=c6tcwwuc&dl=0" download="Resume_Li Yiqi_20241222" target="_blank">latest resume.</a><br>Please feel free to reach me via any approach in <a href="#contacts">CONTACT</a> section.</p>
+    </div>
+  </div>
+
+  <div id="projects" class="project-panel">
+    <h2>Projects Experience (Click button to expand/close)</h2>
+    <button class="project" onclick="p1()">Data Science and Analytics</button>
+    <div id="p1" class="projectdetail">
+      <strong><p>✅Detecting Heart failures patients at risk of death upon readmission Using Machine learning</p></strong>
+      <p>Cardiovascular disease is the leading cause of death globally and after initial hospitalizations is subsequent readmissions for patients who have further complications. In Singapore, this also poses as a problem for the National Heart Center (NHC) as rehospitalization indicates an increase in cost for patients and increase manpower needed in the hospital.</p>
+      <p>Our team used real-world data and R language to build 3 heart failure mortality prediction models (using Logistic Regression, Decision Tree, Random Forest), getting the insights of Heart Failure and Mortality. We concluded that Logistic Regression has the best prediction accuracy over other 2 models and the hospital could derive optimal  priority caring strategy based on the top few features that are important for model to make predictions to improve operational efficiency and reduce mortality rate.</p>
+      <p>📍Please check my&nbsp;<a href="https://github.com/Yiqi974/Detecting-Heart-failures-patients-at-risk-of-death-upon-readmission-Using-Machine-learning" target="_blank">Github repo</a>&nbsp;to know more.</p>
+      <br>
+      <strong><p>✅Time Series Application for Singapore Tourism Board</p></strong>
+      <p>AI and other forms of machine learning were just beginning to make inroads into the travel industry. Our team targeted on Singapore Tourism Board and with the comprehensive analysis of the feasibility for AI application, we built below delivables that could benefit the company:</p>
+      <ul>
+        <li>An analytics dashboard can be used to dynamically monitor changes in the tourist industry, allowing for the efficient formulation and execution of corresponding policies from a macro viewpoint.</li>
+        <li>the forecasting model allows an accurate prediction of international arrivals, help STB maintain continuous supplies of tourism products and services to satisfy the increasing demand for international travel experiences.</li>
+      </ul>
+      <p>Singapore Tourism Board can better understand the variables that affect international visitor arrivals and make informed decisions by implementing the proposed well-designed AI application in a "greener" manner, improving its reputation as the leading economic development agency for Singapore's tourism sector.</p>
+      <p>📍Please check my&nbsp;<a href="https://github.com/Yiqi974/Time-Series-Application---Singapore-Tourism-Board" target="_blank">Github repo</a>&nbsp;to know more.</p>
+      <br>
+      <strong><p>✅Classification of Ocular Disease Using CNN</p></strong>
+      <p>With the growing number of patients and a shortage of qualified ophthalmologists, relying solely on manual screening methods to classify diseases can be a daunting task.</p>
+      <p>Our team leveraged machine learning algorithms and artificial intelligence techniques to analyze large volumes of fundoscopic images and extract meaningful information for disease detection and classification. Such automated approaches can reduce human error, improve diagnostic accuracy, and enhance the overall efficiency of the diagnostic process.</p>
+      <p>📍Please check my&nbsp;<a href="https://github.com/Yiqi974/Classification-of-Ocular-Disease-Using-CNN" target="_blank">Github repo</a>&nbsp;to know more.</p>
+    </div>
+    <button class="project" onclick="p2()">Full Stack development</button>
+    <div id="p2" class="projectdetail">
+      <strong><p>✅Bank queuing system</p></strong>
+      <p>The bank queue waiting time increased up to 4 hours due to recent fixed deposit interest rate increase, to address flaws in the existing bank queuing systems, our team utilized html, css, javascript and Flask to build single page web applications (SPA) with a backend server, the solution has below functionality:</p>
+      <ul>
+        <li>Manage the queue for below 3 categories: Personal Booking, Senior, Business.</li>
+        <li>Support the domain clients to:
+          <ul>
+            <li>record a customer queue request based on the category from walk-in, and from web</li>
+            <li>inform the customer when they are the 3rd subsequent customer in the queue</li>
+          </ul>
+        </li>
+        <li>Support the counter staff:
+          <ul>
+            <li>to call for the customer to the respective counter</li>
+            <li>to 'hold' certain queue number as 'missed queue number'</li>
+            <li>to 're-schedule' 'missed queue number' to be served after next 2</li>
+          </ul>
+        </li>
+        <li>Support customer relationship officer (CRO):
+          <ul>
+            <li>to view the entire queue list for the respective categories.</li>
+            <li>to stop/re-initiate the taking of queue number for either queue category.</li>
+          </ul>
+        </li>
+      </ul>
+      <p>📍Please check my&nbsp;<a href="https://github.com/Yiqi974/Bank-Queuing-System" target="_blank">Github repo</a>&nbsp;to know more.</p>
+    </div>
+    <button class="project" onclick="p3()">Information Management</button>
+    <div id="p3" class="projectdetail">
+      <strong><p>✅Dispensing Machines Management</p></strong>
+      <p>To support the staff in the Sales Department for re-fill requirements and sales analysis, our team developed the python command line interface application is loaded in the notebook PCs with the following menu options:</p>
+      <p class="centertext">***** Vending Machines Manager *****<br>
+        1 : Add/Edit Machine Profile<br>
+        2 : Pre-view Sales<br>  
+        3: Process daily sales<br>
+        4: Product Daily Sales Analysis<br>
+        Q : Quit
+      </p>
+      <p>📍Please check my&nbsp;<a href="https://github.com/Yiqi974/Dispensing-Machines-Management" target="_blank">Github repo</a>&nbsp;to know more.</p>
+    </div>
+  </div>
+
+  <script>
+    function p1() {
+      var x = document.getElementById("p1");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    }
+    function p2() {
+      var y = document.getElementById("p2");
+      if (y.style.display === "none") {
+        y.style.display = "block";
+      } else {
+        y.style.display = "none";
+      }
+    }
+    function p3() {
+      var z = document.getElementById("p3");
+      if (z.style.display === "none") {
+        z.style.display = "block";
+      } else {
+        z.style.display = "none";
+      }
+    }
+  </script>
+
+  <div id="skills" class="skills-panel">
+    <h2>Skills/Certifications</h2>
+    <ul>
+      <li><strong>Analytics</strong>: Python (Pandas, NumPy, Matplotlib) | SQL queries | Tableau | NoSQL | RPA | R | PowerBI | HTML | CSS | Alteryx | Dataiku</li>
+      <li><strong>Data governance</strong>: Collibra Data Catalog | Collibra Data Quality | Master Data Management | Data Architecture concept</li>
+      <li><strong>Big data and cloud</strong>: AWS S3 storage | AWS Redshift | AWS Athena</li>
+      <li><strong>Productivity software</strong>: Microsoft Office Suite | Power Automate | Sharepoint | UiPath | SAP | KNIME | Orange | MURAL | JIRA | Confluence</li>
+      <li><strong>Soft competency</strong>: Detail-oriented | Responsible | Collaboration | Leadership | Communication | Problem solving</li>
+      <li><strong>Languages competency</strong>: Mandarin (Native), English (Fluent), IELTS: 7.0 (L:7.5, R:8.5, S: 5.5, W:6), GRE: 317/340</li>
+    </ul>
+    <div class="cert-panel">
+      <a href="https://credential.certifyme.online/verify/0093eb8019070" target="_blank" title="Click to see credential"><img class="cert" src="Resources/shelovesdata_logo.jpg"/></a>
+      <a href="http://verify.skilljar.com/c/6xw8ohy9btxf" target="_blank" title="Click to see credential"><img class="cert" src="Resources/dataiku_logo.jpg"/></a>
+      <a href="https://credentials.databricks.com/470dada6-32f7-489d-b71f-47cfc90d9f87#acc.6GKqfY1w" target="_blank" title="Click to see credential"><img class="cert" src="Resources/databricks_logo.jpg"/></a> 
+      <a><img class="cert" src="Resources/collibra_logo.jpg"/></a>  
+      <a href="https://www.datacamp.com/completed/statement-of-accomplishment/course/56f8ff339dd84c7c85a7a3dcba1454dbded99a40" target="_blank" title="Click to see credential"><img class="cert" src="Resources/python_logo.jpg"/></a>  
+      <a href="https://www.datacamp.com/completed/statement-of-accomplishment/track/ed0d89aea946c458eb011d50a523a8faa1066972" target="_blank" title="Click to see credential"><img class="cert" src="Resources/tableau_logo.jpg"/></a>  
+      <a href="https://www.linkedin.com/learning/certificates/1b97d64bd329d7f18dcce8d75bb5ee5c8a7c1efb4b136ec9a435cbb972d9ce69?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BCarc%2F0FQT42S0JEishOwGQ%3D%3D" target="_blank" title="Click to see credential"><img class="cert" src="Resources/linkedin_logo1.jpg"/></a>  
+      <a href="https://www.linkedin.com/learning/certificates/d89f3eb43935e47a705231fc57d443675d80faef3393bf3f103356fb52da4d6d?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BCarc%2F0FQT42S0JEishOwGQ%3D%3D" target="_blank" title="Click to see credential"><img class="cert" src="Resources/linkedin_logo1.jpg"/></a> 
+    </div>
+  </div>
+
+  <div id="contacts" class="footer">
+    <h2>Contact me at&nbsp;&nbsp;
+      <a href="https://www.linkedin.com/in/yiqi-li/" target="_blank" title="Click to see my Linkedin profile"><img class="icon" src="Resources/Linkedin_white.png" /></a>
+      <a href="mailto:yli127@e.ntu.edu.sg" title="Click to email me"><img class="icon" src="Resources/Outlook1.png" /></a>
+      <a title="Call me at +6580392532"><img class="icon" src="Resources/phone2.png" /></a>
+    </h2>
+  </div>
+
+  </body>
+</html>
